@@ -1,0 +1,57 @@
+.wow {
+  width: 100px;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 200px;
+    gap: 10px;
+}
+
+.conver, .rate{
+  display: grid;
+    grid-template-columns: 10fr 10fr 10fr;
+    grid-template-rows: 100px 200px;
+    gap: 10px;
+}
+
+
+body{
+  background: #EAAF88;
+  font-family: "Martel", sans-serif;
+}
+
+h1, h2, h3{
+   text-shadow: 2px 2px 2px #EAE088;
+}
+
+p{
+  color: #3A2D07;
+}
+
+b{
+  font-family: "Anybody", sans-serif;
+}
+
+figcaption{
+  color: #3A2D07;
+}
+
+ul{
+ text-align: left;
+}
+li{
+  color:#3A2D07;
+  
+}
+
+fieldset{
+  color: #BF350C;
+  background-color: #3A2D07;
+}
+
+legend,fieldset{
+  position: relative;
+  bottom: 14px;
+}
